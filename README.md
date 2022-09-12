@@ -1,3 +1,4 @@
+Exercice 2
 Manuel:
 1. La commande which permet de retourner le chemin de la commande.
 2. On utilise la commande man -k 'option' pour trouver les endroits ou le mot option est utilisé
@@ -39,6 +40,10 @@ Commande importante:
 19. On utilise la commande 'wc --1 passwd'
 20. On utilise la commande 'man -k DESCRIPTION:conversion | wc -l
 21. On utilise la commande 'find . name 'passwwd'' pour trouver les fichier appeler passwd
+22.
+23.
+24. Il faut faire un sudo apt install plocate pour pouvoir utiliser la commande.puis on utilise locate history.log et il nous donne le chemin
+25. Il ne le trouve pas car il cherche dans les dossier personnel.
 
 Exercice 3:
 1. Pour copier syslog dans notre repertoire on utilise 'cp syslog ~'
