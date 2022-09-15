@@ -1,5 +1,7 @@
-# H1 Exercice 2
-Manuel:
+# Exercice 2
+---
+## Manuel:
+---
 1. La commande which permet de retourner le chemin de la commande.
 2. On utilise la commande man -k 'option' pour trouver les endroits ou le mot option est utilisé
 3. On quitte le manuel en appuyant sur la touche q
