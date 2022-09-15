@@ -1,13 +1,13 @@
 # Exercice 2
 ---
-## Manuel:
+### Manuel:
 ---
 1. La commande which permet de retourner le chemin de la commande.
-2. On utilise la commande man -k 'option' pour trouver les endroits ou le mot option est utilisé
+2. On utilise la commande ```man -k 'option'``` pour trouver les endroits ou le mot option est utilisé
 3. On quitte le manuel en appuyant sur la touche q
 4. On utilise la commande man 6 'intro' pour aller au début de la section 6, la section parle de jeux.
 
-Navigation:
+### Navigation:
 1. on utilise la commande cd /var/log pour ce déplacer dans ce dossier
 2. On utilise cd .. qui nous fait retourner un dossier en arrière.
 3. On utilise cd ~ pour retourner au dossier personnel.
@@ -20,7 +20,7 @@ Navigation:
 10. On ne peux pas supprimer le Dossier2 car il n'est pas vide.
 11. on utilise la commande 'rm -rf Dossier2'
 
-Commande importante:
+### Commande importante:
 1. On utilise la commande 'date +%T', time affiche les ressource utiliser par le paramètre rentré
 2. Les dossiers cachés sont les dossiers commençant par un point.
 3. Le chemin est /usr/bin/ls
@@ -47,14 +47,14 @@ Commande importante:
 24. Il faut faire un sudo apt install plocate pour pouvoir utiliser la commande.puis on utilise locate history.log et il nous donne le chemin
 25. Il ne le trouve pas car il cherche dans les dossier personnel.
 
-Exercice 3:
+# Exercice 3:
 1. Pour copier syslog dans notre repertoire on utilise 'cp syslog ~'
 2. On utilise alt+r, 'kernel', puis 'noyau'
 3. Il faut utiliser alt+A pour marquer ce qu'il faut couper donc les 10 premières ligne, puis ctrl+k pour couper, ctrl+fleche bas pour aller en bas, puis ctrl+u pour coller
 4. On utilise alt+u pour annuler l'action
 5. On utilise ctrl+x pour quitter et on appuie sur y pour valider le changement
 
-Exercice 4:
+# Exercice 4:
 
 1. On utilise 'sudo cp .bashrc .bashrc_bak' pour faire une copie.
 2. On enleve les '#' pour décommenter la ligne
