@@ -18,10 +18,10 @@
 8. Le fichier est bien supprimé avec ```rm``` pour les fichier et la commande ```rm``` ne permet pas de supprimer les dossiers.
 9. Pour supprimer les dossiers il faut utiliser la commande ```rmdir```
 10. On ne peux pas supprimer le Dossier2 car il n'est pas vide.
-11. on utilise la commande ```rm -rf Dossier2```
+11. on utilise la commande ```rm -rf Dossier2``` pour supprimer le Dossier et sont contenu.
 
 ### Commande importante:
-1. On utilise la commande ```date +%T```, time affiche les ressource utiliser par le paramètre rentré
+1. On utilise la commande ```date +%T``` pour afficher l'heure, time affiche les ressource utiliser par le paramètre rentré
 2. Les dossiers cachés sont les dossiers commençant par un point.
 3. Le chemin est /usr/bin/ls
 4. Il n'existe pas d'entrée pour man ll, mais en utilisant alias ```ll``` on voit que c'est l'équivalent de ```ll -alF```
@@ -44,7 +44,7 @@
 21. On utilise la commande ```find . name 'passwwd'``` pour trouver les fichier appeler passwd
 22.
 23.
-24. Il faut faire un sudo apt install plocate``` pour pouvoir utiliser la commande puis on utilise ```locate history.log``` et il nous donne le chemin
+24. Il faut faire un sudo ```apt install plocate``` pour pouvoir utiliser la commande puis on utilise ```locate history.log``` et il nous donne le chemin
 25. Il ne le trouve pas car il cherche dans les dossier personnel.
 
 # Exercice 3:
